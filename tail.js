@@ -9,11 +9,12 @@ const assertEqual = function(actual, expected) {
   return statement;
 };
 
-const head = function(array) {
+const tail = function(array) {
   let value = "";
-  value = array[0];
+  value = array.slice(1);
   return value;
 };
 
-console.log(assertEqual(head([5,6,7]), 5));
-console.log(assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"));
+const words = ["Yo Yo", "Lighthouse", "Labs"];
+console.log(tail(words)); // no need to capture the return value since we are not checking it
+console.log(assertEqual(words.length, 3)); // original array should still have 3 elements!
