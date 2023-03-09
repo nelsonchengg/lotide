@@ -21,7 +21,7 @@ const findKeyByValue = function(searchThis, forThis) {
   return foundIt;
 };
 
-const bestTVShowsByGenre = { 
+const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"

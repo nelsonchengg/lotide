@@ -23,9 +23,9 @@ const assertArraysEqual = function(array1, array2) {
 
 const letterPositions = function(sentence) {
   const results = {};
-  const convertedSentence = sentence.toLowerCase()
+  const convertedSentence = sentence.toLowerCase();
   for (let i = 0; i < convertedSentence.length; i++) {
-    const letters = convertedSentence[i]
+    const letters = convertedSentence[i];
     if (letters === " ") {
       continue;
     }
