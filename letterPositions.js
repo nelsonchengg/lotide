@@ -39,3 +39,5 @@ const letterPositions = function(sentence) {
 };
 
 console.log(letterPositions("Lighthouse in the house"));
+
+console.log(assertArraysEqual(letterPositions("hello").e, [1]));
