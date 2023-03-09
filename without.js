@@ -30,7 +30,7 @@ const without = function(array1, array2) {
     }
   }
   return newSet;
-}
+};
 
 console.log(without([1, 2, 3], [1]));
 console.log(without(["1", "2", "3"], [1, 2, "3"]));
